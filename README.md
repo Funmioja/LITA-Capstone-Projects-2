@@ -37,6 +37,7 @@ It serves as a flexible platform for data exploration and provides quick insight
 
 
 ## Summary
+Using Excel, I identified SubscriptionDuration for each, while Pivot tables revealed key customer segments and showed which subscription types are most popular.
 
 
 
