@@ -77,11 +77,35 @@ WHERE Canceled = 1
 AND DATEDIFF(Month, SubscriptionEnd, SubscriptionStart) <=180;
 - [Canceled Subscription within 6month](https://github.com/user-attachments/assets/d2de22d2-c97e-4a6d-8f84-9fca1ec621f9)
 
-
-  
 - calculate the average subscription duration for all customers.
+  - SELECT 
+    AVG(DATEDIFF(Month, SubscriptionEnd, SubscriptionStart)) 
+	AS AverageSubscriptionDuration
+FROM [dbo].[LITA_Capstone_Customerdata];
+- [Average Subscription](https://github.com/user-attachments/assets/290495a4-b611-4d93-8c60-8351c960bd1c)
+
 -  find customers with subscriptions longer than 12 months.
+  - SELECT 
+    CustomerID,
+    CustomerName,
+    Region,
+    SubscriptionType,
+    SubscriptionStart,
+    SubscriptionEnd,
+    Revenue
+FROM [dbo].[LITA_Capstone_Customerdata]
+WHERE DATEDIFF(Month, SubscriptionEnd, SubscriptionStart) > 365;
+- [Subscription longer than 12month](https://github.com/user-attachments/assets/5324b75a-728c-4f7b-bfca-138496275eb3)
+
 - calculate total revenue by subscription type.
+  - SELECT 
+    SubscriptionType,
+    SUM(Revenue) AS TotalRevenue
+FROM [dbo].[LITA_Capstone_Customerdata]
+GROUP BY SubscriptionType
+ORDER BY TotalRevenue DESC;
+- [TotalRevenue](https://github.com/user-attachments/assets/a8765dd1-aad0-4d18-8db2-6fc96cf77280)
+
 -  find the top 3 regions by subscription cancellations.
 -  find the total number of active and canceled subscriptions
 
