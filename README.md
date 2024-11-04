@@ -128,6 +128,12 @@ The SQL analysis provided key insights into revenue trends, high-churn regions, 
 SQL allowed us to break down the data at various levels and generate metrics for each region and subscription type. 
 The queries also served as a foundation for the Power BI dashboard.
 
+# Power BI Dashboard
+## Purpose
+Power BI was used to build an interactive dashboard that enables dynamic visualization of customer segments, revenue patterns, 
+and subscription trends. 
+The dashboard allows stakeholders to explore data visually and filter by different dimensions such as region, subscription type, and customer status.
+
 
 
 
