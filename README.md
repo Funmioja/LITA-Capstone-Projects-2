@@ -46,6 +46,14 @@ SQL queries provide precise and efficient ways to handle large datasets, automat
 
 ### Key SQL Queries
 - retrieve the total number of customers from each region.
+  - SELECT 
+    Region,
+    COUNT(CustomerID) AS TotalCustomers
+FROM [dbo].[LITA_Capstone_Customerdata]
+GROUP BY Region
+ORDER BY TotalCustomers DESC;
+- [Total Customer](https://github.com/user-attachments/assets/da6fe3c3-13c9-4bb3-86e7-72370ee6b88f)
+
 - find the most popular subscription type by the number of customers.
 - find customers who canceled their subscription within 6 months.
 - calculate the average subscription duration for all customers.
