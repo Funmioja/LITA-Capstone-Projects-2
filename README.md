@@ -63,10 +63,22 @@ GROUP BY SubscriptionType
 ORDER BY TotalCustomers DESC;
 - [Most Subscription](https://github.com/user-attachments/assets/ca51e28e-2d2d-4d0b-bb5b-bc7fe6f784ed)
 
-
-
-
 - find customers who canceled their subscription within 6 months.
+  - SELECT 
+    CustomerID,
+    CustomerName,
+    Region,
+    SubscriptionType,
+    SubscriptionStart,
+    SubscriptionEnd,
+	DATEDIFF(Month, SubscriptionEnd, SubscriptionStart)
+FROM [dbo].[LITA_Capstone_Customerdata]
+WHERE Canceled = 1
+AND DATEDIFF(Month, SubscriptionEnd, SubscriptionStart) <=180;
+- [Canceled Subscription within 6month](https://github.com/user-attachments/assets/d2de22d2-c97e-4a6d-8f84-9fca1ec621f9)
+
+
+  
 - calculate the average subscription duration for all customers.
 -  find customers with subscriptions longer than 12 months.
 - calculate total revenue by subscription type.
