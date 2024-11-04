@@ -45,6 +45,14 @@ SQL was used to query the data, aggregate results, and conduct deeper analysis.
 SQL queries provide precise and efficient ways to handle large datasets, automate calculations, and enable structured reporting.
 
 ### Key SQL Queries
+- retrieve the total number of customers from each region.
+- find the most popular subscription type by the number of customers.
+- find customers who canceled their subscription within 6 months.
+- calculate the average subscription duration for all customers.
+-  find customers with subscriptions longer than 12 months.
+- calculate total revenue by subscription type.
+-  find the top 3 regions by subscription cancellations.
+-  find the total number of active and canceled subscriptions
 
 
 
