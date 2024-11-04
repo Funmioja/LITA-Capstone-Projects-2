@@ -6,6 +6,10 @@ Using Excel, SQL, and Power BI, this analysis provides insights into customer be
 and helps to identify areas for potential improvements in customer retention, revenue growth, and service offerings. 
 The dataset includes customer information, subscription details, revenue, and cancellation statuses.
 
+## Background
+This dataset captures customer subscription information for a service provider, 
+where each record corresponds to a unique customer and includes the following key fields:
+
 
 
 
