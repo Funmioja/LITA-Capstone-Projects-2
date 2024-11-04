@@ -107,7 +107,23 @@ ORDER BY TotalRevenue DESC;
 - [TotalRevenue](https://github.com/user-attachments/assets/a8765dd1-aad0-4d18-8db2-6fc96cf77280)
 
 -  find the top 3 regions by subscription cancellations.
+  - SELECT TOP 3
+    SubscriptionType,
+    COUNT(CustomerID) AS TotalCancellations
+FROM [dbo].[LITA_Capstone_Customerdata]
+WHERE Canceled = 1
+GROUP BY SubscriptionType
+ORDER BY TotalCancellations DESC;
+- [Top3 Region](https://github.com/user-attachments/assets/f27ca2f2-1d83-47a3-92f8-20401bd17880)
+
 -  find the total number of active and canceled subscriptions
+  - SELECT 
+    SUM(CASE WHEN Canceled = 1 THEN 1 ELSE 0 END) AS TotalCanceled,
+    SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS TotalActive
+FROM [dbo].[LITA_Capstone_Customerdata];
+- [Total Active and Cancellation](https://github.com/user-attachments/assets/71bd801b-3491-4bfe-a3fe-4a4527f3fa5e)
+
+
 
 
 
