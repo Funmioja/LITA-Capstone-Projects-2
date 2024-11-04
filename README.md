@@ -17,7 +17,11 @@ where each record corresponds to a unique customer and includes the following ke
 - Revenue: Revenue generated from each subscription.
 - Subscription Duration: Length of the subscription period in days.
 
-
+# The primary objectives of this analysis are to:
+- Understand revenue patterns across customer segments.
+- Identify cancellation trends and potential reasons for customer churn.
+- Discover popular subscription types and average subscription duration.
+- Provide stakeholders with actionable insights to optimize revenue and improve customer retention.
 
 
 
