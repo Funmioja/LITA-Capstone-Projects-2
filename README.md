@@ -33,6 +33,10 @@ It serves as a flexible platform for data exploration and provides quick insight
 - Analyze customer data using pivot tables to find subscription patterns.
 - Calculate the average subscription duration and identify the most popular subscription types.
 - [Excel Details](https://github.com/user-attachments/assets/6b758378-75fc-4481-a56d-8fde44cfdea7)
+- [Excel Details 2](https://github.com/user-attachments/assets/e01ddca2-5e4b-441c-be97-5ed4f5a225f8)
+
+
+## Summary
 
 
 
