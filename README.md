@@ -39,5 +39,11 @@ It serves as a flexible platform for data exploration and provides quick insight
 ## Summary
 Using Excel, I identified SubscriptionDuration for each, while Pivot tables revealed key customer segments and showed which subscription types are most popular.
 
+# SQL Analysis
+### Purpose 
+SQL was used to query the data, aggregate results, and conduct deeper analysis. 
+SQL queries provide precise and efficient ways to handle large datasets, automate calculations, and enable structured reporting.
+
+
 
 
