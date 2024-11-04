@@ -147,6 +147,17 @@ The dashboard allows stakeholders to explore data visually and filter by differe
 - Slicers for Interactivity: Slicers for region, subscription type, and subscription status to allow users to drill down into specific segments.
 - [Sclier](https://github.com/user-attachments/assets/695ac998-dcd9-43ad-838f-65505b2cf8d4)
 
+## Summary
+The Power BI dashboard provides an intuitive view of the dataset, making it easy to understand customer behavior and identify trends. 
+Interactive slicers allow users to filter data by region and subscription type, enabling targeted analysis.
+
+## Conclusion
+Using Excel, SQL, and Power BI, this analysis offers a comprehensive view of customer subscription trends, cancellations, and key segments. 
+Each tool complements the others, with Excel providing a quick and flexible analysis, 
+SQL offering structured queries and deeper insights, and 
+Power BI delivering interactive, visual reports. 
+This combination of tools enables a holistic understanding of the subscription data and supports informed decision-making.
+
 
 
 
