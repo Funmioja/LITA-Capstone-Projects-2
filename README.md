@@ -23,5 +23,10 @@ where each record corresponds to a unique customer and includes the following ke
 - Discover popular subscription types and average subscription duration.
 - Provide stakeholders with actionable insights to optimize revenue and improve customer retention.
 
+# Excel Analysis
+### Purpose
+Excel was used as an initial analysis tool to quickly organize, summarize, and 
+metrics in the dataset. 
+It serves as a flexible platform for data exploration and provides quick insights without requiring complex setup.
 
 
