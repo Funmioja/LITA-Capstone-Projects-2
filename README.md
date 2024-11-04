@@ -136,9 +136,17 @@ The dashboard allows stakeholders to explore data visually and filter by differe
 
 ## Dashboard Components
 - Key Metrics: Card visuals showing total revenue, average subscription duration, total cancellations, and active subscriptions.
+- [Card Chart](https://github.com/user-attachments/assets/fafe3285-ed48-48d4-a7f4-89036cac6280)
+
 - Customer Segments: Charts highlighting revenue by region, subscription type, and cancellation rates.
+- [Customer Segamnet](https://github.com/user-attachments/assets/6bdfd4bc-743e-4b9e-929e-b14abbad9636)
+
 - Trend Analysis: Line and bar charts to show how cancellations and revenue have evolved over time.
+- [Trend Analysis](https://github.com/user-attachments/assets/e4efd914-b799-478c-813d-4c4501d56aa4)
+
 - Slicers for Interactivity: Slicers for region, subscription type, and subscription status to allow users to drill down into specific segments.
+- [Sclier](https://github.com/user-attachments/assets/695ac998-dcd9-43ad-838f-65505b2cf8d4)
+
 
 
 
