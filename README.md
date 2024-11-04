@@ -55,6 +55,17 @@ ORDER BY TotalCustomers DESC;
 - [Total Customer](https://github.com/user-attachments/assets/da6fe3c3-13c9-4bb3-86e7-72370ee6b88f)
 
 - find the most popular subscription type by the number of customers.
+   -SELECT 
+    SubscriptionType,
+    COUNT(CustomerID) AS TotalCustomers
+FROM [dbo].[LITA_Capstone_Customerdata]
+GROUP BY SubscriptionType
+ORDER BY TotalCustomers DESC;
+- [Most Subscription](https://github.com/user-attachments/assets/ca51e28e-2d2d-4d0b-bb5b-bc7fe6f784ed)
+
+
+
+
 - find customers who canceled their subscription within 6 months.
 - calculate the average subscription duration for all customers.
 -  find customers with subscriptions longer than 12 months.
