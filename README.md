@@ -44,6 +44,8 @@ Using Excel, I identified SubscriptionDuration for each, while Pivot tables reve
 SQL was used to query the data, aggregate results, and conduct deeper analysis. 
 SQL queries provide precise and efficient ways to handle large datasets, automate calculations, and enable structured reporting.
 
+### Key SQL Queries
+
 
 
 
