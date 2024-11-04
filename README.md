@@ -123,6 +123,11 @@ ORDER BY TotalCancellations DESC;
 FROM [dbo].[LITA_Capstone_Customerdata];
 - [Total Active and Cancellation](https://github.com/user-attachments/assets/71bd801b-3491-4bfe-a3fe-4a4527f3fa5e)
 
+## Summary
+The SQL analysis provided key insights into revenue trends, high-churn regions, and subscription patterns over time. 
+SQL allowed us to break down the data at various levels and generate metrics for each region and subscription type. 
+The queries also served as a foundation for the Power BI dashboard.
+
 
 
 
