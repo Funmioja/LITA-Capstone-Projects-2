@@ -134,6 +134,12 @@ Power BI was used to build an interactive dashboard that enables dynamic visuali
 and subscription trends. 
 The dashboard allows stakeholders to explore data visually and filter by different dimensions such as region, subscription type, and customer status.
 
+## Dashboard Components
+- Key Metrics: Card visuals showing total revenue, average subscription duration, total cancellations, and active subscriptions.
+- Customer Segments: Charts highlighting revenue by region, subscription type, and cancellation rates.
+- Trend Analysis: Line and bar charts to show how cancellations and revenue have evolved over time.
+- Slicers for Interactivity: Slicers for region, subscription type, and subscription status to allow users to drill down into specific segments.
+
 
 
 
