@@ -29,4 +29,8 @@ Excel was used as an initial analysis tool to quickly organize, summarize, and
 metrics in the dataset. 
 It serves as a flexible platform for data exploration and provides quick insights without requiring complex setup.
 
+### Key Steps
+- Analyze customer data using pivot tables to find subscription patterns.
+- Calculate the average subscription duration and identify the most popular subscription types.
+
 
