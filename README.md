@@ -1,4 +1,5 @@
 # LITA-Capstone-Projects-2
+# CustomerData Project
 
 ## Project Overview
 This project analyzes a dataset of customer subscriptions to identify key trends in customer segments, subscription duration, revenue, and cancellation patterns. 
@@ -34,6 +35,11 @@ It serves as a flexible platform for data exploration and provides quick insight
 - Calculate the average subscription duration and identify the most popular subscription types.
 - [Excel Details](https://github.com/user-attachments/assets/6b758378-75fc-4481-a56d-8fde44cfdea7)
 - [Excel Details 2](https://github.com/user-attachments/assets/e01ddca2-5e4b-441c-be97-5ed4f5a225f8)
+
+# Pivot Table Dashboard
+Attached Report is to give details of what the pivot table analysis with a bar chart, clustard column chart and a sclier as well
+- [Pivot Dashboard for customerdata](https://github.com/user-attachments/assets/510beaba-c79b-4f06-ab0d-1f2672fb74a8)
+
 
 
 ## Summary
